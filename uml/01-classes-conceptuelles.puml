@@ -1,4 +1,5 @@
-@startuml step1
+@startuml Classes conceptuelles
+header étape 1 - Classes conceptuelles
 class Personne
 class Assistant
 class Professeur
