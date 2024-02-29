@@ -32,7 +32,7 @@ Chaque professeur est expert dans un certain nombre de disciplines et l’école
 <br><br>
 Chaque cours est donné par un professeur et encadré par au plus 3 assistants. Par soucis pédagogique, un cours ne peut couvrir de matière que d’une seule discipline. Par soucis financier, l’école n’ouvre pas de cours pour moins de 5 étudiants. 
 
-![Attributs](https://www.plantuml.com/plantuml/png/PPB1JiCm38RlUGeVcKHtuOOGsWH3uZBj5K9Zm5ARLhOpJGBUXpr7NmnlLPksz9B6___RNw9iH3rhgYlOgZAz9HNtYJuWGtTMtoBSGJ7HN5bv4JWWInCZmfS3-mxSdMDJN__tjluClgq8sOIeOv2RTnJ1n7toDOgI9isHdQP0bkZr5wge-sNC-ZD9IMr54OVAKvDOygPkZHnZYNs7FHtHfqj-X7xuBee9shoU2HV20ERS60KhPnwudqwVkwwCPZ351pkEosF-DK5Hm5EBh11mOSnz1EdZSWS3rbILH8RPxvRTooOTcHWUdRiP4MyddXMirxE3k0t6O4_a3m00 "Attributs")
+![Attributs](https://www.plantuml.com/plantuml/png/PP9TQeD04CVVznJps48LIliKIade1_Gbv0fRdRO3kihCR2YakKzp3Y_MIKHNhI_hplzZVokkHJrhh2lOg3AzHnNtXRv4XkwalaMuWsoYkQBo8h13bYO4X8C3UtRSdK9JNzwtjXu7tqQ4x8IWOv2R3nJ1o7toBOYIHasH5uqbMQBNNwcYxfSnwSya1RKL1HmcJqraIPkwDN8C1VODMzgZZoiutERv_V7SCy8__6JP174-JwGBOG1qReo2ZHCNhAOKSzU5rGoc-DAkvT8n_qfG5F2xHLOeSM5CFOBqUVuM0zPKbKY6sU-MxKKJzqmCZyvTZOWt4yyrvFdi8cwDeRHVvGy0 "Attributs")
 
 ## Etape 4 : Cardinalités
 On considère l’organisation d’une haute école pour laquelle on à 3 types de membres: Professeurs, assistants et étudiants. On connait le nom et prénom de tous les membres. Par ailleurs, on sait à quelle filière les étudiants appartiennent et dans quel institut les professeurs travaillent.
@@ -42,6 +42,6 @@ Chaque professeur est expert dans un certain nombre de disciplines et l’école
 Chaque cours est donné par **un professeur** et encadré par au plus **3 assistants**. Par soucis pédagogique, un cours ne peut couvrir de matière que **d’une seule discipline**. Par soucis financier, l’école n’ouvre pas de cours pour **moins de 5 étudiants**. 
 
 
-![Cardinalités](https://www.plantuml.com/plantuml/png/RPBRIiGm48RlynH3hdInmNgu4P6LLS6RPLyXDBCwqAObaoo2-ZxsEVfYffQc1ynDafdld_adPCjUEn-g4dRQ6RAw9D-rBDvH6tJGjLut23UGhVAYA3Kp7D1nRIt2fu2u3gvhRLtzdVTn_nwvHsQAdQnFGbSVaHc36vIlbZtvu2V9im-6ecB8lr19tO_3AVz4N51JaiKnigk3u-bIDT4zsWA72diweGwzFfc-_ygocRLbV7AuIep6X4XIYE793zpDkyyeUQdKjUnXkP63tSX6I9iucPWwWhnIQfF8HMba3_ZHeFDWSA79_odDI6_z2uscGTxEAuyW1uhp33UP9o9VzIxgS7Bau468ipJMnOmv1wKMmuijMXE_roy0 "Cardinalités")
+![Cardinalités](https://www.plantuml.com/plantuml/png/RP9DJiCm48NtFiN8AwY8HQ1iAeIA2aXigbx1YgSmKk947hj2AhqFEKSkXaEKNv6DuvdllNaJPSjUEn-A77RQ6R8w9z_KB3vH6tJGr5vN26j85dsHvPeP3kYuj1RXB20-1zVKjYp-tlVnlFJSCpF5ITOFGbSUaHc3wvJlbZtvu4V9gm-6egBhlr5EpO_3iVz2d56LayM-iYk3u_5IL34zsWmxXpsTK8SDd5EbrfVMPmZ_-9qaauZp-fXqqUW32Z588PR7NB2PffXGybQfUzd2SYMxs96Da3PnGp5E17cdr6eWPzR87l2hGkV1u4oJ_cFDI1_jb-f3WtoOElSW1uhxT3UP3aIwc9sLuUJ8mPCGLyDQDnFc6fIQBI-sQ4typNu1 "Cardinalités")
 
 
