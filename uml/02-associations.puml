@@ -1,0 +1,24 @@
+@startuml Associations
+header étape 2 - Associations
+class Personne
+class Assistant
+class Professeur
+class Etudiant
+class Discipline
+class Cours
+
+Personne <|-- Assistant
+Personne <|-- Professeur
+Personne <|-- Etudiant
+
+Assistant -- Discipline : Compétence
+Assistant -- Cours : encadre
+
+Professeur -- Discipline : est expert de
+Professeur -- Cours : enseigne
+
+Etudiant -- Cours : suit
+
+Cours -- Discipline : couvrir >
+
+@enduml
