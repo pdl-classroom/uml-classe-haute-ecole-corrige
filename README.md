@@ -15,5 +15,7 @@ Chaque **professeur** est expert dans un certain nombre de **disciplines** et l�
 Chaque **cours** est donné par un **professeur** et encadré par au plus 3 **assistants**. Par soucis pédagogique, un **cours** ne peut couvrir de matière que d’une seule **discipline**. Par soucis financier, l’école n’ouvre pas de **cours** pour moins de 5 **étudiants**.
 
 ```plantuml
+@startuml
 a -- b
+@enduml
 ```
