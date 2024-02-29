@@ -43,3 +43,12 @@ Chaque cours est donné par **un professeur** et encadré par au plus **3 assist
 
 
 ![Cardinalités](https://www.plantuml.com/plantuml/png/RPBRIiGm48RlynH3hdInmNgu4P6LLS6RPLyXDBCwqAObaoo2-ZxsEVfYffQc1ynDafdld_adPCjUEn-g4dRQ6RAw9D-rBDvH6tJGjLut23UGhVAYA3Kp7D1nRIt2fu2u3gvhRLtzdVTn_nwvHsQAdQnFGbSVaHc36vIlbZtvu2V9im-6ecB8lr19tO_3AVz4N51JaiKnigk3u-bIDT4zsWA72diweGwzFfc-_ygocRLbV7AuIep6X4XIYE793zpDkyyeUQdKjUnXkP63tSX6I9iucPWwWhnIQfF8HMba3_ZHeFDWSA79_odDI6_z2uscGTxEAuyW1uhp33UP9o9VzIxgS7Bau468ipJMnOmv1wKMmuijMXE_roy0 "Cardinalités")
+
+## Etape 5 : Range
+On considère l’organisation d’une haute école pour laquelle on à 3 types de membres: Professeurs, assistants et étudiants. On connait le nom et prénom de tous les membres. Par ailleurs, on sait à quelle filière les étudiants appartiennent et dans quel institut les professeurs travaillent.
+<br><br>
+Chaque professeur est expert dans un certain nombre de disciplines et l’école désirant assurer une certaine redondance, il y a au moins 2 professeurs experts dans chaque discipline. Par ailleurs, chaque assistant **doit indiquer son niveau** de compétence dans chacune des disciplines proposées. **Ce niveau varie entre 1 (faible) et 4 (expert)**
+<br><br>
+Chaque cours est donné par un professeur et encadré par au plus 3 assistants. Par soucis pédagogique, un cours ne peut couvrir de matière que d’une seule discipline. Par soucis financier, l’école n’ouvre pas de cours pour moins de 5 étudiants. 
+
+![Range](https://www.plantuml.com/plantuml/png/RP9DJiCm48NtFiN8AwY8HO1kAeIA-97OL1Kti9AXZ9GuaSUka4hlGy-HY-4IOYTLit4yyzxpDvQNxBHrlgxWNPiDYa_K9Lhe3awt27F8_kkYg3GphD5oOmp2Ja3urhOxcAR--r-5TJ_e7faf91iNZRRvG6RqjdU-6NRal4kM5-TB2ew-_qeLTJyMK_-PkA2s8XDXdXflEMtgDb2ZAR1FMD4MjL_0BbVgRd_CYV3ttrasGfpM4-b9Om0K8beXb1CNBCOK8vMyLkfM7iLo9dlie0qYNOO9HJeHv8rIiwYSH2CxmAyMhOCI9vxyJ3GZROutDK23d8-J1o5x2lFqEvb7HNvoTj7uhIKB3q9SnB6kHffBK6eol5YYASEp-WK0 "Range")
