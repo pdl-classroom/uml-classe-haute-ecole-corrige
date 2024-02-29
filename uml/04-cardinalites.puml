@@ -1,0 +1,44 @@
+@startuml Cardinalités
+header étape 4 - Cardinalités
+
+class Personne {
+    Prénom
+    Nom
+}
+
+class Assistant
+
+class Professeur{
+    Institut
+}
+
+class Etudiant{
+    Filière
+}
+
+class Discipline
+
+class Cours
+
+class Compétence{
+    Niveau
+}
+
+Personne <|-- Assistant
+Personne <|-- Professeur
+Personne <|-- Etudiant
+
+Assistant -- Discipline : Compétence
+Assistant "0..3" -- "*" Cours : encadre
+
+Professeur "2..*" -- "*" Discipline : est expert de
+Professeur "1" -- "*" Cours : enseigne
+
+Etudiant "5..*" -- "*" Cours : suit
+
+Cours "1..*" -- "1" Discipline : couvrir >
+
+(Assistant, Discipline) .. Compétence
+
+@enduml
+
