@@ -1,0 +1,44 @@
+@startuml Attributs
+header étape 3 - Attributs
+
+class Personne {
+    Prénom
+    Nom
+}
+
+class Assistant
+
+class Professeur{
+    Institut
+}
+
+class Etudiant{
+    Filière
+}
+
+class Discipline
+
+class Cours
+
+class Compétence{
+    Niveau
+}
+
+Personne <|-- Assistant
+Personne <|-- Professeur
+Personne <|-- Etudiant
+
+Assistant -- Discipline : Compétence
+Assistant -- Cours : encadre
+
+Professeur -- Discipline : est expert de
+Professeur -- Cours : enseigne
+
+Etudiant -- Cours : suit
+
+Cours -- Discipline : couvrir >
+
+(Assistant, Discipline) .. Compétence
+
+@enduml
+

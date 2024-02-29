@@ -24,3 +24,13 @@ Chaque professeur est **expert** dans un certain nombre de disciplines et l’é
 Chaque cours est **donné** par un professeur et encadré par au plus 3 assistants. Par soucis pédagogique, un cours ne peut **couvrir** de matière que d’une seule discipline. Par soucis financier, l’école n’ouvre pas de cours pour moins de 5 étudiants. 
 
 ![Associations](https://www.plantuml.com/plantuml/png/PP4n3i8m34NtdC8NwCA842e2TguG9GOijKbb9uY12t4EBeO5RTh0QF-Vzx-LLfBbbFiETYBHaKqKWvWhMeyChsUo0y8AcbfsdHM14xB4470SrK5A2scIEPvH13EFYsFAdcRzGE9ewAW0zZ6p63DXOVDecWMrtY_ejL1IJ7aAkfxJOAr9_Q2tON1OkpuLrA2AzOnQfiJyGL0Iu7r0Jk3nnpXp1EcY5vgfrbALJ5hpE_tINSmt9eQjCIq6hp_q1W00 "Associations")
+
+## Etape 3 : Attributs
+On considère l’organisation d’une haute école pour laquelle on à 3 types de membres: Professeurs, assistants et étudiants. On connait le **nom** et **prénom** de tous les membres. Par ailleurs, on sait à quelle **filière** les étudiants appartiennent et dans quel **institut** les professeurs travaillent.
+<br><br>
+Chaque professeur est expert dans un certain nombre de disciplines et l’école désirant assurer une certaine redondance, il y a au moins 2 professeurs experts dans chaque discipline. Par ailleurs, chaque assistant doit indiquer son niveau de compétence dans chacune des disciplines proposées. Ce **niveau** varie entre 1 (faible) et 4 (expert)
+<br><br>
+Chaque cours est donné par un professeur et encadré par au plus 3 assistants. Par soucis pédagogique, un cours ne peut couvrir de matière que d’une seule discipline. Par soucis financier, l’école n’ouvre pas de cours pour moins de 5 étudiants. 
+
+![Attributs](https://www.plantuml.com/plantuml/png/PPB1JiCm38RlUGeVcKHtuOOGsWH3uZBj5K9Zm5ARLhOpJGBUXpr7NmnlLPksz9B6___RNw9iH3rhgYlOgZAz9HNtYJuWGtTMtoBSGJ7HN5bv4JWWInCZmfS3-mxSdMDJN__tjluClgq8sOIeOv2RTnJ1n7toDOgI9isHdQP0bkZr5wge-sNC-ZD9IMr54OVAKvDOygPkZHnZYNs7FHtHfqj-X7xuBee9shoU2HV20ERS60KhPnwudqwVkwwCPZ351pkEosF-DK5Hm5EBh11mOSnz1EdZSWS3rbILH8RPxvRTooOTcHWUdRiP4MyddXMirxE3k0t6O4_a3m00 "Attributs")
+
