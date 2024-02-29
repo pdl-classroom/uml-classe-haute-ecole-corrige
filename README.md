@@ -14,4 +14,8 @@ Chaque **professeur** est expert dans un certain nombre de **disciplines** et l�
 <br><br>
 Chaque **cours** est donné par un **professeur** et encadré par au plus 3 **assistants**. Par soucis pédagogique, un **cours** ne peut couvrir de matière que d’une seule **discipline**. Par soucis financier, l’école n’ouvre pas de **cours** pour moins de 5 **étudiants**.
 
-![step1](https://www.plantuml.com/plantuml/png/LOwx3O0m34JxJ945Kj1J104zAo1Y94iXGJwdOtXIy2rzx_JE7ZgBbYrQAEsDMU8Cs8a4EIMwpWxWsajwOyah0LJa2aOjWLy-C1RU8p-2FXU1CRVMjeTp7-i__zZ_u5dnb49z-GG0 "step1")
+<p style="text-align: center">
+  <img src="https://www.plantuml.com/plantuml/png/LOwx3O0m34JxJ945Kj1J104zAo1Y94iXGJwdOtXIy2rzx_JE7ZgBbYrQAEsDMU8Cs8a4EIMwpWxWsajwOyah0LJa2aOjWLy-C1RU8p-2FXU1CRVMjeTp7-i__zZ_u5dnb49z-GG0" />
+</p>
+
+## Etape 2 : Associations
